@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C30C915-B286-4ACE-89E4-262346309F6C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IL2CPP_Core</RootNamespace>
+    <AssemblyName>IL2CPP-Core</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CastUtils.cs" />
+    <Compile Include="IL2CPP.cs" />
+    <Compile Include="Import.cs" />
+    <Compile Include="System\Array.cs" />
+    <Compile Include="Objects\IL2Assembly.cs" />
+    <Compile Include="Objects\IL2Class.cs" />
+    <Compile Include="Objects\IL2ClassType.cs" />
+    <Compile Include="Objects\IL2Field.cs" />
+    <Compile Include="Objects\IL2Method.cs" />
+    <Compile Include="Objects\IL2Object.cs" />
+    <Compile Include="Objects\IL2Param.cs" />
+    <Compile Include="Objects\IL2Property.cs" />
+    <Compile Include="System\Action.cs" />
+    <Compile Include="System\Collections\Generic\Dictionary.cs" />
+    <Compile Include="System\Int32.cs" />
+    <Compile Include="System\Boolean.cs" />
+    <Compile Include="System\Byte.cs" />
+    <Compile Include="System\Collections\Generic\List.cs" />
+    <Compile Include="System\Collections\Hashtable.cs" />
+    <Compile Include="System\Delegate.cs" />
+    <Compile Include="System\Object.cs" />
+    <Compile Include="System\IO\File.cs" />
+    <Compile Include="System\IO\MemoryStream.cs" />
+    <Compile Include="System\IO\Stream.cs" />
+    <Compile Include="System\Reflection\Assembly.cs" />
+    <Compile Include="System\Reflection\MemberInfo.cs" />
+    <Compile Include="System\Reflection\MethodBase.cs" />
+    <Compile Include="System\Reflection\MethodBody.cs" />
+    <Compile Include="System\Reflection\MethodInfo.cs" />
+    <Compile Include="System\Reflection\Module.cs" />
+    <Compile Include="System\Reflection\MonoMethod.cs" />
+    <Compile Include="System\Reflection\ParameterInfo.cs" />
+    <Compile Include="System\Reflection\RuntimeMethodInfo.cs" />
+    <Compile Include="System\RuntimeMethodHandle.cs" />
+    <Compile Include="System\RuntimeType.cs" />
+    <Compile Include="System\Runtime\Serialization\Formatters\Binary\BinaryFormatter.cs" />
+    <Compile Include="System\String.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\Text\Encoding.cs" />
+    <Compile Include="System\Type.cs" />
+    <Compile Include="UnhollowerBaseLib\Runtime\Il2CppStructs.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

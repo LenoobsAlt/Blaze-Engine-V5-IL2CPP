@@ -1,0 +1,12 @@
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\bin\Debug\BE4v.dll
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\bin\Debug\BE4v.pdb
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\bin\Debug\VRCLoader.dll
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\bin\Debug\VRCLoader.pdb
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\obj\Debug\BE4v.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\obj\Debug\BE4v.SDK.IL2Dumper.DumpForm.resources
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\obj\Debug\BE4v.UnityEditor.UnityEditor_Form.resources
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\obj\Debug\BE4v.csproj.GenerateResource.cache
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\obj\Debug\BE4v.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\obj\Debug\BE4v.csproj.CopyComplete
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\obj\Debug\BE4v.dll
+C:\Users\User\Downloads\vr_hax-main\client\BE4v\obj\Debug\BE4v.pdb

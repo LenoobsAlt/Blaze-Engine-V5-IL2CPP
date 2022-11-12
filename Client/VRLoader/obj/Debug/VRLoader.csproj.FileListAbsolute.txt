@@ -1,0 +1,6 @@
+C:\Users\User\Downloads\vr_hax-main\client\bin\VRCLoader.dll
+C:\Users\User\Downloads\vr_hax-main\client\bin\VRCLoader.pdb
+C:\Users\User\Downloads\vr_hax-main\client\VRLoader\obj\Debug\VRLoader.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\vr_hax-main\client\VRLoader\obj\Debug\VRLoader.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\vr_hax-main\client\VRLoader\obj\Debug\VRCLoader.dll
+C:\Users\User\Downloads\vr_hax-main\client\VRLoader\obj\Debug\VRCLoader.pdb

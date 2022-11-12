@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Users\User\Downloads\vr_hax-main\loader\dllmain.cpp(21,11): warning C4101: 'return_val': unreferenced local variable
+  clr_test.vcxproj -> C:\Users\User\Downloads\vr_hax-main\loader\x64\Debug\clr_test.dll
