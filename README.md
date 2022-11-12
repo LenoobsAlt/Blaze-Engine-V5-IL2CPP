@@ -1,5 +1,5 @@
 # Blaze-Engine-V5
-###How To Use
+### How To Use
 - Build all the projects including the clrloader
 - use create a new folder called modules inside the vrc folder
 - drag and drop the vrcloader.dll to the vrc folder
